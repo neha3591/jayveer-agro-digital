@@ -74,13 +74,13 @@ const Navbar = () => {
           {/* Contact Info & CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+919876543210"
+              href="tel:+918980536618"
               className={`flex items-center gap-2 ${
                 isScrolled ? 'text-foreground' : 'text-primary-foreground'
               }`}
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">+91 98765 43210</span>
+              <span className="font-medium">+91 89805 36618</span>
             </a>
             <Button
               variant={isScrolled ? 'golden' : 'hero'}
@@ -115,11 +115,11 @@ const Navbar = () => {
               ))}
               <div className="pt-4 border-t border-border/20">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918980536618"
                   className="flex items-center gap-2 text-foreground mb-4"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-medium">+91 98765 43210</span>
+                  <span className="font-medium">+91 89805 36618</span>
                 </a>
                 <Button variant="golden" size="lg" className="w-full" onClick={() => scrollToSection('#contact')}>
                   Get Quote
