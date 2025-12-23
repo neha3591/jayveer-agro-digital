@@ -6,7 +6,7 @@ const Location = () => {
     {
       icon: MapPin,
       title: 'Office Address',
-      details: ['Near Bus Stand, Main Road', 'Anand, Gujarat 388001'],
+      details: ['Vagashi, Near Anand', 'Gujarat, India'],
     },
     {
       icon: Phone,
@@ -16,7 +16,7 @@ const Location = () => {
     {
       icon: Mail,
       title: 'Email Address',
-      details: ['info@jayveersales.com', 'sales@jayveersales.com'],
+      details: ['jayveersales@gmail.com'],
     },
     {
       icon: Clock,
@@ -47,7 +47,7 @@ const Location = () => {
           {/* Map */}
           <div className="rounded-2xl overflow-hidden shadow-card h-[400px] lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117869.51799046778!2d72.8621789!3d22.5645175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4e7439e3a4e3%3A0x4e9f7d9a9d9d9d9d!2sAnand%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.5!2d72.995826!3d22.547481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDMyJzUwLjkiTiA3MsKwNTknNDUuMCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '400px' }}
@@ -83,7 +83,7 @@ const Location = () => {
 
             {/* Get Directions Button */}
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Anand,Gujarat"
+              href="https://www.google.com/maps/dir/?api=1&destination=22.547481,72.995826"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
