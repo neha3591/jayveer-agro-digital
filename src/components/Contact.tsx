@@ -75,7 +75,7 @@ const Contact = () => {
             {/* Quick Contact Options */}
             <div className="space-y-4">
               <a
-                href="tel:+919876543210"
+                href="tel:+918980536618"
                 className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-soft hover-lift"
               >
                 <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center">
@@ -83,12 +83,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Call Us Now</p>
-                  <p className="font-heading font-bold text-foreground">+91 98765 43210</p>
+                  <p className="font-heading font-bold text-foreground">+91 89805 36618</p>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918980536618"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-soft hover-lift"
