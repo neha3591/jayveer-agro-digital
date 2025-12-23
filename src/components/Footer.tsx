@@ -106,8 +106,8 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
                 <span className="text-background/70">
-                  Near Bus Stand, Main Road,<br />
-                  Anand, Gujarat 388001
+                  Vagashi, Near Anand,<br />
+                  Gujarat, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -118,8 +118,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-secondary flex-shrink-0" />
-                <a href="mailto:info@jayveersales.com" className="text-background/70 hover:text-secondary transition-colors">
-                  info@jayveersales.com
+                <a href="mailto:jayveersales@gmail.com" className="text-background/70 hover:text-secondary transition-colors">
+                  jayveersales@gmail.com
                 </a>
               </li>
             </ul>
